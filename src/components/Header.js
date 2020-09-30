@@ -17,13 +17,12 @@ export default function Header() {
 
             <div className="header__input">
                 <SearchIcon />
-                <input type="text" placeholder="search" />
+                <input type="text" placeholder="Search Trendi" />
             </div>
             </div>
 
             <div className="header__center">
-
-                <div className="header__option">
+                <div className="header__option header__option--active">
                     <HomeIcon fontSize="large" />
                 </div>
                 <div className="header__option">
@@ -32,16 +31,13 @@ export default function Header() {
                 <div className="header__option">
                     <StarsIcon fontSize="large" />
                 </div>
-
             </div>
-            
 
             <div className="header__right">
                 <div className="header__info">
                     <Avatar />
                     <h4>Cody Howard</h4>
                 </div>
-
                 <IconButton>
                     <AddIcon />
                 </IconButton>
