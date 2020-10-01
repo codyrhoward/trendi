@@ -7,7 +7,7 @@ export default function StoryReel() {
         <div className="storyReel">
             <Story 
               image="https://i.ibb.co/s9QvV7p/Tampa-bay-lightning-wins.jpg"
-              profileSrc="https://i.ibb.co/nMPZ1kP/Tampa-Bay-Lightning-Logo-2011-svg.png"
+              profileSrc="https://i.ibb.co/YbjN1cr/Tampa-bay-blue-logo.jpg"
               title="Tampa Bay Lightning"
             />
             <Story
@@ -17,8 +17,18 @@ export default function StoryReel() {
               />
             <Story
               image="https://i.ibb.co/m5bSmQw/Cinderella-castle-scaled.jpg"
-              profileSrc="https://i.ibb.co/XYpqqyb/Disney-logo.webp"
+              profileSrc="https://i.ibb.co/34ZZ2Zc/Disney-logo.jpg"
               title="Disney World"
+              />
+            <Story
+              image="https://i.ibb.co/9b9NycN/Umbrella-academy-poster.jpg"
+              profileSrc="https://i.ibb.co/Rbfm7Mz/netflixlogo-0-0.jpg"
+              title="Netflix"
+              />
+            <Story
+              image="https://i.ibb.co/gmjN7Gc/the-1975-concert.jpg"
+              profileSrc="https://i.ibb.co/bz8XLfD/2016-The1975-Matt-Salacuse-070316-2-696x442.jpg"
+              title="The 1975"
               />
         </div>
     )
