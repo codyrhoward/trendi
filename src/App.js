@@ -4,10 +4,16 @@ import './App.css';
 import Sidebar from './components/Sidebar'
 import Feed from './components/Feed'
 import Widgets from './components/Widgets'
+import Login from './components/Login'
 
 function App() {
+  const user = null;
   return (
     <div className="app">
+      {!user ? (
+        <Login />
+      ) : ( 
+        <>
       <Header />
 
       <div className="app__body">
@@ -15,8 +21,8 @@ function App() {
         <Feed />
         <Widgets />
       </div>    
-
-
+        </>
+      )}
     </div>
   );
 }

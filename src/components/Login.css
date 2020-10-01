@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap');
+
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login > div > img {
+    object-fit: contain;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.login > div > h2{
+    text-align: center;
+    margin-top: 45px;
+    font-size: xx-large;
+    color: rgb(99, 208, 161);
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.login > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.login > button {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(99, 208, 161);
+    color: #eff2f5;
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    font-size: x-large;
+}
+
+.login > button:hover {
+    background-color: white;
+    color: rgb(99, 208, 161);
+    cursor: pointer;
+}
