@@ -13,7 +13,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className="header__left">
-            <img className="logo" src="https://i.ibb.co/pfC1j4r/Screen-Shot-2020-09-30-at-10-42-55-PM.png" />
+            <img className="logo" src="https://i.ibb.co/MNZHW9P/Screen-Shot-2020-09-30-at-10-58-50-PM.png" />
 
             <div className="header__input">
                 <SearchIcon />

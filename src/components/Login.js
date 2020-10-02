@@ -1,10 +1,15 @@
 import React from 'react'
 import './Login.css'
+import { auth, provider } from '../firebase'
 
 export default function Login() {
     const signIn = () => {
-
-    }
+        auth.signInWithPopup(provider)
+        .then((result) =>{
+            console.log(result);
+        })
+        .catch(error => alert (error.message));
+    };
     return (
         <div className="login">
             <div className="login_logo">
