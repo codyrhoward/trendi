@@ -1,11 +1,20 @@
 import React from 'react'
 import './Login.css'
 import { auth, provider } from '../firebase'
+import { actionTypes } from '../reducer'
+import { useStateValue } from '../StateProvider'
 
 export default function Login() {
+    const [{}, dispatch] = useStateValue();
+
     const signIn = () => {
         auth.signInWithPopup(provider)
         .then((result) =>{
+            dispatch({
+                type: actionTypes.SET_USER,
+                user: result.user,
+            })
+
             console.log(result);
         })
         .catch(error => alert (error.message));
