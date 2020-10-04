@@ -21,7 +21,7 @@ const handleSubmit = event => {
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         profilePic: user.photoURL,
         username: user.displayName,
-        image: imageUrl
+        image: imageUrl,
     })
 
     setInput('')
